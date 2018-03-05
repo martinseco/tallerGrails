@@ -1,0 +1,41 @@
+/*
+* This is a manifest file that'll be compiled into application.css, which will include all the files
+* listed below.
+*
+* Any CSS file within this directory can be referenced here using a relative path.
+*
+* You're free to add application-wide styles to this file and they'll appear at the top of the
+* compiled file, but it's generally better to create a new file per style scope.
+*
+*= require bootstrap
+*= require grails
+*= require main
+*= require mobile
+*= require_self
+*/
+#map {
+    height: 400px;
+    width: 100%;
+}
+#mapModal {
+    height: 200px;
+    width: 100%;
+}
+h6 {
+    color: #5e5e5e;
+}
+a {
+    color: #000000;
+}
+a:hover {
+    color: #23527c;
+}
+.table-striped tbody tr:hover td, .table-striped tbody tr:hover th {
+    background-color: #efefef;
+}
+.table thead tr:hover td, .table thead tr:hover th {
+    background-color: #efefef;
+}
+.td-centered {
+    text-align: center;
+}
